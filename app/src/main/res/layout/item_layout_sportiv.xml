@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nume"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sport"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvVarsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vârstă"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvInaltime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Înălțime"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvGreutate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Greutate"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvOras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oraș"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="170dp"
+        >
+
+
+        <EditText
+            android:id="@+id/etNume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Nume"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etNume"
+            android:layout_marginTop="8dp"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            />
+
+        <EditText
+            android:id="@+id/etParola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEmail"
+            android:layout_marginTop="15dp"
+            android:hint="Parola"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            />
+
+        <EditText
+            android:id="@+id/etSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEmail"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/edittext_selector"
+            android:hint="Sport"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+
+            />
+
+        <EditText
+            android:id="@+id/etVarsta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etSport"
+            android:layout_marginTop="8dp"
+            android:hint="Vârstă"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+
+            />
+
+        <EditText
+            android:id="@+id/etInaltime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etVarsta"
+            android:layout_marginTop="8dp"
+            android:hint="Înălțime"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+
+            />
+
+        <EditText
+            android:id="@+id/etGreutate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etInaltime"
+            android:layout_marginTop="8dp"
+            android:hint="Greutate"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+
+            />
+
+        <EditText
+            android:id="@+id/etOras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etGreutate"
+            android:layout_marginTop="8dp"
+            android:hint="Oraș"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="@drawable/edittext_selector"
+            android:drawableLeft="@drawable/baseline_factory_24"
+
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etOras"
+            android:layout_marginTop="16dp"
+            android:text="Register"
+            android:background="@drawable/btn_custom"
+            />
+    </RelativeLayout>
+</ScrollView>
